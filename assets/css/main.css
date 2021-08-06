@@ -3746,6 +3746,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   width: calc(100% - 4rem);
   max-width: 72rem;
   z-index: 2;
+  justify-content: center;
 }
 
 #nav ul.divided li {
@@ -3984,6 +3985,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #main > .posts > * {
   padding: 4rem;
   width: 50%;
+}
+
+#main > .posts > h1 {
+  width: 100%;
 }
 
 #main > .posts > article {
